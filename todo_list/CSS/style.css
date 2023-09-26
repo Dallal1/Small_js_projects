@@ -1,0 +1,55 @@
+/* Start Global Rules */
+body{
+    background: linear-gradient(to right, #00bad2, #cd62ff);
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* End Glubel Rules */
+
+/* Start Todo List */
+.header {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+/* End Todo List */
+
+/* Start Add List */
+.add_list, .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+.add_list input, .add_list button {
+    border: none;
+    padding: 0.4rem;
+    background-color: #fff;
+    font-size: 1.5rem;
+}
+.add_list button {
+    border-radius: 0 5px 5px 0;
+    color: #cb63fe;
+    transition: 0.5s;
+}
+.add_list button:hover {
+    background-color: #cb63fe;
+    color: #fff;
+}
+.add_list input {
+    border-radius: 5px 0 0 5px;
+}
+/* End Add List */
+
+/* Start Chak List */
+/* End Chak List */
