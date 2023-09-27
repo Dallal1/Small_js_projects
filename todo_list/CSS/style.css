@@ -41,6 +41,7 @@ ul{
     border-radius: 0 5px 5px 0;
     color: #cb63fe;
     transition: 0.5s;
+    cursor: pointer;
 }
 .add_list button:hover {
     background-color: #cb63fe;
@@ -52,4 +53,48 @@ ul{
 /* End Add List */
 
 /* Start Chak List */
+.contener {
+    display: flex;
+    justify-content: center;
+}
+.todo_list {
+    min-width: 30%;
+    /* //background: #fff; */
+}
+.todo {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+}
+.task_name {
+    flex: 1;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 10px;
+    background: #fff;
+}
+.todo_chech, .todo_trash {
+    background-color: #940d54;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    border: none;
+    cursor: pointer;
+}
+.todo_trash {
+    background-color: #3ec0b4;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+.fa-check, .fa-trash {
+    pointer-events: none;
+}
 /* End Chak List */
